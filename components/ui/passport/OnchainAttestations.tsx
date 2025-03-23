@@ -24,10 +24,7 @@ const fetchDuneData = async (slug: string): Promise<any> => {
 import { BarChart } from "@/components/BarChart";
 import { formatters } from "@/lib/utils";
 
-export default function QuarterlyOnchainAttestations({
-  slug,
-  column,
-}: DuneDataProps) {
+export default function OnchainAttestations({ slug, column }: DuneDataProps) {
   const { data, isLoading, error } = useQuery({
     queryKey: ["dune", slug],
     queryFn: () => fetchDuneData(slug),
