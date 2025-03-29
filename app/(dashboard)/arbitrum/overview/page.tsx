@@ -23,7 +23,7 @@ export default function Overview() {
           </div>
           <LineChart
             className="h-60 w-full"
-            colors={["blue"]}
+            colors={["lightGray"]}
             data={chartLineData}
             index="date"
             categories={["Cumulative Attestations"]}
