@@ -1,11 +1,14 @@
 import { DuneClient } from "@duneanalytics/client-sdk";
 import { NextRequest } from "next/server";
 
-export async function GET(
-  request: NextRequest,
-  context: { params: { slug: string } }
-) {
-  const { slug } = context.params;
+type Props = {
+  params: {
+    slug: string;
+  };
+};
+
+export async function GET(req: NextRequest, { params }: Props) {
+  const { slug } = params;
 
   if (!process.env.DUNE_API_KEY) {
     return Response.json({ error: "API key not configured" }, { status: 500 });
