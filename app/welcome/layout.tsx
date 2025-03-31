@@ -39,7 +39,7 @@ const Layout = ({
           <div className="hidden md:flex items-center">
             {/* Social Icons */}
             <a
-              href="https://x.com/ivanmolto"
+              href="https://x.com/eas_pulse"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:text-red-400"
@@ -47,7 +47,7 @@ const Layout = ({
               <RiTwitterXFill className="size-5" />
             </a>
             <a
-              href="https://github.com/ivanmolto"
+              href="https://github.com/easpulse"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:text-red-400"
@@ -66,7 +66,7 @@ const Layout = ({
         </div>
         <Link
           className="ml-auto w-fit inline-flex cursor-pointer flex-row items-center justify-center gap-1 rounded-sm border-b-[1.5px] border-red-700 bg-linear-to-b from-red-400 to-red-500 px-3 py-2 leading-4 text-sm font-medium tracking-wide whitespace-nowrap text-white shadow-[0_0_0_2px_rgba(0,0,0,0.04),0_0_14px_0_rgba(255,255,255,0.19)] transition-all duration-200 ease-in-out hover:shadow-red-300"
-          href="/reports"
+          href="/passport/overview"
         >
           Launch App
         </Link>
