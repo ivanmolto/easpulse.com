@@ -1,7 +1,8 @@
 import { DuneClient } from "@duneanalytics/client-sdk";
+import { NextRequest } from "next/server";
 
 export async function GET(
-  request: Request,
+  request: NextRequest,
   { params }: { params: { slug: string } }
 ) {
   const { slug } = params;
