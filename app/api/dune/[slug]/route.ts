@@ -4,6 +4,13 @@ import { NextResponse } from "next/server";
 export async function GET(request: Request) {
   const slug = request.url.split("/").pop();
 
+  if (!slug) {
+    return NextResponse.json(
+      { error: "Invalid slug parameter" },
+      { status: 400 }
+    );
+  }
+
   if (!process.env.DUNE_API_KEY) {
     return NextResponse.json(
       { error: "API key not configured" },
