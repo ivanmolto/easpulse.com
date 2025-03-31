@@ -1,6 +1,12 @@
 export type ColorUtility = "bg" | "stroke" | "fill" | "text";
 
 export const chartColors = {
+  sky: {
+    bg: "bg-sky-500 dark:bg-sky-500",
+    stroke: "stroke-sky-500 dark:stroke-sky-500",
+    fill: "fill-sky-500 dark:fill-sky-500",
+    text: "text-sky-500 dark:text-sky-500",
+  },
   blue: {
     bg: "bg-blue-500 dark:bg-blue-500",
     stroke: "stroke-blue-500 dark:stroke-blue-500",
@@ -31,11 +37,29 @@ export const chartColors = {
     fill: "fill-violet-500 dark:fill-violet-500",
     text: "text-violet-500 dark:text-violet-500",
   },
+  lightViolet: {
+    bg: "bg-violet-300/50 dark:bg-violet-800/50",
+    stroke: "stroke-violet-300/50 dark:stroke-violet-800/50",
+    fill: "fill-violet-300/50 dark:fill-violet-800/50",
+    text: "text-violet-300/50 dark:text-violet-800/50",
+  },
   amber: {
     bg: "bg-amber-500 dark:bg-amber-500",
     stroke: "stroke-amber-500 dark:stroke-amber-500",
     fill: "fill-amber-500 dark:fill-amber-500",
     text: "text-amber-500 dark:text-amber-500",
+  },
+  yellow: {
+    bg: "bg-yellow-500 dark:bg-yellow-500",
+    stroke: "stroke-yellow-500 dark:stroke-yellow-500",
+    fill: "fill-yellow-500 dark:fill-yellow-500",
+    text: "text-yellow-500 dark:text-yellow-500",
+  },
+  lightYellow: {
+    bg: "bg-yellow-300/50 dark:bg-yellow-800/50",
+    stroke: "stroke-yellow-300/50 dark:stroke-yellow-800/50",
+    fill: "fill-yellow-300/50 dark:fill-yellow-800/50",
+    text: "text-yellow-300/50 dark:text-yellow-800/50",
   },
   gray: {
     bg: "bg-gray-400 dark:bg-gray-600",
@@ -48,12 +72,6 @@ export const chartColors = {
     stroke: "stroke-rose-600 dark:stroke-rose-500",
     fill: "fill-rose-600 dark:fill-rose-500",
     text: "text-rose-600 dark:text-rose-500",
-  },
-  sky: {
-    bg: "bg-sky-500 dark:bg-sky-500",
-    stroke: "stroke-sky-500 dark:stroke-sky-500",
-    fill: "fill-sky-500 dark:fill-sky-500",
-    text: "text-sky-500 dark:text-sky-500",
   },
   cyan: {
     bg: "bg-cyan-500 dark:bg-cyan-500",
@@ -84,6 +102,18 @@ export const chartColors = {
     stroke: "stroke-red-500 dark:stroke-red-500",
     fill: "fill-red-500 dark:fill-red-500",
     text: "text-red-500 dark:text-red-500",
+  },
+  green: {
+    bg: "bg-green-500 dark:bg-green-500",
+    stroke: "stroke-green-500 dark:stroke-green-500",
+    fill: "fill-green-500 dark:fill-green-500",
+    text: "text-green-500 dark:text-green-500",
+  },
+  lightGreen: {
+    bg: "bg-green-300/50 dark:bg-green-800/50",
+    stroke: "stroke-green-300/50 dark:stroke-green-800/50",
+    fill: "fill-green-300/50 dark:fill-green-800/50",
+    text: "text-green-300/50 dark:text-green-800/50",
   },
   lightGray: {
     bg: "bg-gray-300 dark:bg-gray-700",
