@@ -1,14 +1,17 @@
 import { DuneClient } from "@duneanalytics/client-sdk";
-import { type NextApiRequest, NextApiResponse } from "next";
+import { NextResponse } from "next/server";
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
+export async function GET(
+  request: Request,
+  { params }: { params: { slug: string } }
 ) {
-  const { slug } = req.query;
+  const { slug } = params;
 
   if (!process.env.DUNE_API_KEY) {
-    return res.status(500).json({ error: "API key not configured" });
+    return NextResponse.json(
+      { error: "API key not configured" },
+      { status: 500 }
+    );
   }
 
   const client = new DuneClient(process.env.DUNE_API_KEY);
@@ -16,11 +19,14 @@ export default async function handler(
   try {
     const results = await client.custom.getResults({
       handle: "ivanmolto",
-      slug: slug as string,
+      slug: slug,
     });
 
-    return res.status(200).json(results);
+    return NextResponse.json(results);
   } catch {
-    return res.status(500).json({ error: "Failed to fetch data" });
+    return NextResponse.json(
+      { error: "Failed to fetch data" },
+      { status: 500 }
+    );
   }
 }
