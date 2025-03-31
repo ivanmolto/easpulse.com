@@ -34,7 +34,6 @@ export default function OnchainAttestations({ slug, column }: DuneDataProps) {
   if (error) return <div>Error: {error.message}</div>;
 
   if (!data || data.length === 0) return <div>No data available</div>;
-  console.log(data);
 
   if (column) {
     return (
