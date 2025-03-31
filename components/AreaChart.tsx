@@ -1,5 +1,4 @@
-// Tremor Raw AreaChart [v0.3.0]
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { RiArrowLeftSLine, RiArrowRightSLine } from "@remixicon/react";
