@@ -1,11 +1,14 @@
 import { DuneClient } from "@duneanalytics/client-sdk";
 import { NextResponse } from "next/server";
 
-export async function GET(
-  request: Request,
-  { params }: { params: { slug: string } }
-) {
-  const { slug } = params;
+type Context = {
+  params: {
+    slug: string;
+  };
+};
+
+export async function GET(request: Request, context: Context) {
+  const { slug } = context.params;
 
   if (!process.env.DUNE_API_KEY) {
     return NextResponse.json(
