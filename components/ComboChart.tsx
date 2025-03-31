@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-// Tremor ComboChart [v0.0.0]
 "use client";
 
 import { RiArrowLeftSLine, RiArrowRightSLine } from "@remixicon/react";
