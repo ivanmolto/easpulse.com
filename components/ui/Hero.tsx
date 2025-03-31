@@ -9,7 +9,7 @@ export function Hero() {
         <FadeDiv className="mx-auto">
           <a
             aria-label="Latest update news"
-            href="#"
+            href="https://www.gitcoin.co/blog/announcing-gitcoin-grants-round-23-gg23"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-auto w-full"
