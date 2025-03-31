@@ -1,13 +1,10 @@
 import { DuneClient } from "@duneanalytics/client-sdk";
-import { NextRequest } from "next/server";
+import { type NextRequest } from "next/server";
 
-type Props = {
-  params: {
-    slug: string;
-  };
-};
-
-export async function GET(req: NextRequest, { params }: Props) {
+export async function GET(
+  request: NextRequest,
+  { params }: { params: { slug: string } }
+): Promise<Response> {
   const { slug } = params;
 
   if (!process.env.DUNE_API_KEY) {
