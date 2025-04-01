@@ -63,7 +63,7 @@ export default function CumulativeAttestations({
         className="h-60 w-full"
         colors={["yellow"]}
         data={sortedDataChart}
-        index="date"
+        index="Day"
         categories={["# Attestations"]}
         valueFormatter={(value) => formatters.unit(value)}
         onValueChange={(v) => console.log(v)}
