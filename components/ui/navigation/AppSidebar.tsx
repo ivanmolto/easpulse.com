@@ -56,18 +56,18 @@ const navigation = [
         name: "Optimism",
         href: "/optimism/overview",
       },
-      {
+      /* {
         name: "Polygon",
         href: "/polygon/overview",
-      },
+      }, */
       {
         name: "Scroll",
         href: "/scroll/overview",
       },
-      {
+      /* {
         name: "zkSync Era",
         href: "/zksync/overview",
-      },
+      }, */
     ],
   },
   {
@@ -97,11 +97,11 @@ const navigation = [
     href: "#",
     icon: BookText,
     children: [
-      {
+      /* {
         name: "Attest Fest",
         href: "/fest/overview",
         active: false,
-      },
+      }, */
       {
         name: "Clique",
         href: "/clique/overview",
