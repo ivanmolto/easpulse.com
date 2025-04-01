@@ -1,8 +1,7 @@
 "use client";
 
-import { LineChart } from "@/components/LineChart";
-import { chartLineData } from "@/data/data";
 import { cx } from "@/lib/utils";
+import CumulativeAttestations from "@/components/ui/optimism/Cumulative Attestations";
 
 export default function Overview() {
   return (
@@ -21,17 +20,7 @@ export default function Overview() {
               Total number of attestations accumulated over time
             </dd>
           </div>
-          <LineChart
-            className="h-60 w-full"
-            colors={["red"]}
-            data={chartLineData}
-            index="date"
-            categories={["Cumulative Attestations"]}
-            valueFormatter={(number: number) =>
-              `$${Intl.NumberFormat("us").format(number).toString()}`
-            }
-            onValueChange={(v) => console.log(v)}
-          />
+          <CumulativeAttestations slug="cumulative-optimism-eas-onchain-attestations" />
         </div>
       </dl>
     </section>
