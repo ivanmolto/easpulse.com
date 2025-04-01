@@ -1,7 +1,6 @@
 "use client";
 
-import { LineChart } from "@/components/LineChart";
-import { chartLineData } from "@/data/data";
+import CumulativeAttestations from "@/components/ui/coinbase/CumulativeAttestations";
 import { cx } from "@/lib/utils";
 
 export default function Overview() {
@@ -21,17 +20,7 @@ export default function Overview() {
               Total number of attestations accumulated over time
             </dd>
           </div>
-          <LineChart
-            className="h-60 w-full"
-            colors={["blue"]}
-            data={chartLineData}
-            index="date"
-            categories={["Cumulative Attestations"]}
-            valueFormatter={(number: number) =>
-              `$${Intl.NumberFormat("us").format(number).toString()}`
-            }
-            onValueChange={(v) => console.log(v)}
-          />
+          <CumulativeAttestations slug="cumulative-coinbase-eas-onchain-attestations-over-time" />
         </div>
       </dl>
     </section>
