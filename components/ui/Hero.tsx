@@ -9,7 +9,7 @@ export function Hero() {
         <FadeDiv className="mx-auto">
           <a
             aria-label="Latest update news"
-            href="https://www.gitcoin.co/blog/announcing-gitcoin-grants-round-23-gg23"
+            href="https://explorer.gitcoin.co/#/round/42161/863/74"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-auto w-full"
@@ -20,7 +20,7 @@ export function Hero() {
               </span>
               <span className="group flex items-center gap-1 truncate">
                 <span className="w-full truncate group-hover:text-white">
-                  We are applying to Gitcoin Grants 23
+                  We are in Gitcoin Grants 23 — spread the love and back us!
                 </span>
 
                 <RiArrowRightUpLine className="group-hover:text-white size-4 shrink-0 text-gray-700" />
