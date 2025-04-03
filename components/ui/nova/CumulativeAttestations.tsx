@@ -33,7 +33,10 @@ export default function CumulativeAttestations({
     queryFn: () => fetchDuneData(slug),
   });
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading)
+    return (
+      <div className="h-60 w-full animate-pulse rounded bg-gray-200 dark:bg-gray-800"></div>
+    );
   if (error) return <div>Error: {error.message}</div>;
 
   if (!data || data.length === 0) return <div>No data available</div>;
