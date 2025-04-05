@@ -35,8 +35,6 @@ export default function AttestationsCount({ slug }: DuneDataProps) {
 
   if (!data || data.length === 0) return <div>No data available</div>;
 
-  console.log();
-
   return (
     <>
       <dd className="text-lg font-semibold text-gray-900 dark:text-gray-50 mt-1.5 flex items-center gap-2">

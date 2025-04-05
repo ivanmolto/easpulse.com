@@ -18,7 +18,6 @@ interface DuneDataProps {
 const fetchDuneData = async (slug: string): Promise<any> => {
   const response = await fetch(`/api/dune/${encodeURIComponent(slug)}`);
   const data: DuneResponse = await response.json();
-  console.log(data);
   return data.result?.rows;
 };
 
