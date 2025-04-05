@@ -1,3 +1,6 @@
+import AttestationsCount from "@/components/ui/arbitrum/AttestationsCount";
+import RecipientsCount from "@/components/ui/arbitrum/RecipientsCount";
+
 export function ArbitrumMetricsCards() {
   return (
     <>
@@ -9,17 +12,13 @@ export function ArbitrumMetricsCards() {
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             On-Chain Attestations
           </dt>
-          <dd className="text-lg font-semibold text-gray-900 dark:text-gray-50 mt-1.5 flex items-center gap-2">
-            {new Intl.NumberFormat("en-US").format(94521)}
-          </dd>
+          <AttestationsCount slug="arbitrum-attestations-count" />
         </div>
         <div>
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             Unique On-Chain Recipients
           </dt>
-          <dd className="text-lg font-semibold text-gray-900 dark:text-gray-50 mt-1.5 flex items-center gap-2">
-            {new Intl.NumberFormat("en-US").format(42405)}
-          </dd>
+          <RecipientsCount slug="arbitrum-recipients-count" />
         </div>
       </dl>
     </>
