@@ -6,10 +6,7 @@ import Link from "next/link";
 
 export function Breadcrumbs() {
   const pathname = usePathname();
-  console.log(pathname);
-
   const segments = pathname.split("/").filter((segment) => segment);
-  console.log(segments);
   const currentPage = segments[0];
   let nav = "";
   if (currentPage === "passport") {
