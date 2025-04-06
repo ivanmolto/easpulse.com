@@ -16,7 +16,7 @@ import {
 } from "@/components/Sidebar";
 import { cx, focusRing } from "@/lib/utils";
 import { RiArrowDownSFill } from "@remixicon/react";
-import { BookText, House, PackageSearch } from "lucide-react";
+import { Flame, House, Link, Star } from "lucide-react";
 import * as React from "react";
 // import { Logo } from "@/public/Logo";
 import { Logo } from "@/components/ui/Logo";
@@ -26,7 +26,7 @@ const navigation = [
   {
     name: "Blockchain networks",
     href: "#",
-    icon: BookText,
+    icon: Link,
     children: [
       {
         name: "Arbitrum One",
@@ -73,7 +73,7 @@ const navigation = [
   {
     name: "Flagship attestors",
     href: "#",
-    icon: PackageSearch,
+    icon: Star,
     children: [
       {
         name: "Coinbase Verifications",
@@ -95,13 +95,13 @@ const navigation = [
   {
     name: "Featured attestors",
     href: "#",
-    icon: BookText,
+    icon: Flame,
     children: [
-      /* {
+      {
         name: "Attest Fest",
         href: "/fest/overview",
         active: false,
-      }, */
+      },
       {
         name: "Bountycaster",
         href: "/bountycaster/overview",
