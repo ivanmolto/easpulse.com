@@ -1,5 +1,5 @@
-import AttestationsCount from "@/components/ui/base/AttestationsCount";
-import RecipientsCount from "@/components/ui/base/RecipientsCount";
+import AttestationsCount from "@/components/ui/bountycaster/AttestationsCount";
+import RecipientsCount from "@/components/ui/bountycaster/RecipientsCount";
 
 export function BountyMetricsCards() {
   return (
