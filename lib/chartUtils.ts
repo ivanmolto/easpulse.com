@@ -103,6 +103,12 @@ export const chartColors = {
     fill: "fill-red-500 dark:fill-red-500",
     text: "text-red-500 dark:text-red-500",
   },
+  lightGreen: {
+    bg: "bg-green-300/50 dark:bg-green-800/50",
+    stroke: "stroke-green-300/50 dark:stroke-green-800/50",
+    fill: "fill-green-300/50 dark:fill-green-800/50",
+    text: "text-green-300/50 dark:text-green-800/50",
+  },
   green: {
     bg: "bg-green-500 dark:bg-green-500",
     stroke: "stroke-green-500 dark:stroke-green-500",
