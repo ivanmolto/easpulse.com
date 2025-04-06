@@ -39,7 +39,7 @@ export function Breadcrumbs() {
     nav = "Polygon";
   } else if (currentPage === "clique") {
     nav = "Clique";
-  } else if (currentPage === "attest") {
+  } else if (currentPage === "fest") {
     nav = "Attest Fest";
   } else if (currentPage === "bountycaster") {
     nav = "Bountycaster";
