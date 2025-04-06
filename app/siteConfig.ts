@@ -69,6 +69,10 @@ export const siteConfig = {
       overview: "/attest/overview",
       trends: "/attest/trends",
     },
+    bountycaster: {
+      overview: "/bountycaster/overview",
+      trends: "/bountycaster/trends",
+    },
   },
 };
 

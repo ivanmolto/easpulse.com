@@ -41,6 +41,8 @@ export function Breadcrumbs() {
     nav = "Clique";
   } else if (currentPage === "attest") {
     nav = "Attest Fest";
+  } else if (currentPage === "bountycaster") {
+    nav = "Bountycaster";
   }
 
   return (

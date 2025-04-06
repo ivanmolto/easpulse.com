@@ -103,6 +103,11 @@ const navigation = [
         active: false,
       }, */
       {
+        name: "Bountycaster",
+        href: "/bountycaster/overview",
+        active: false,
+      },
+      {
         name: "Clique",
         href: "/clique/overview",
         active: false,
