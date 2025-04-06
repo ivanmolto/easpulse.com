@@ -103,6 +103,12 @@ export const chartColors = {
     fill: "fill-red-500 dark:fill-red-500",
     text: "text-red-500 dark:text-red-500",
   },
+  lime: {
+    bg: "bg-lime-500 dark:bg-lime-500",
+    stroke: "stroke-lime-500 dark:stroke-lime-500",
+    fill: "fill-lime-500 dark:fill-lime-500",
+    text: "text-lime-500 dark:text-lime-500",
+  },
   lightGreen: {
     bg: "bg-green-300/50 dark:bg-green-800/50",
     stroke: "stroke-green-300/50 dark:stroke-green-800/50",
@@ -115,11 +121,11 @@ export const chartColors = {
     fill: "fill-green-500 dark:fill-green-500",
     text: "text-green-500 dark:text-green-500",
   },
-  lightGreen: {
-    bg: "bg-green-300/50 dark:bg-green-800/50",
-    stroke: "stroke-green-300/50 dark:stroke-green-800/50",
-    fill: "fill-green-300/50 dark:fill-green-800/50",
-    text: "text-green-300/50 dark:text-green-800/50",
+  teal: {
+    bg: "bg-teal-500 dark:bg-teal-500",
+    stroke: "stroke-teal-500 dark:stroke-teal-500",
+    fill: "fill-teal-500 dark:fill-teal-500",
+    text: "text-teal-500 dark:text-teal-500",
   },
   lightGray: {
     bg: "bg-gray-300 dark:bg-gray-700",
