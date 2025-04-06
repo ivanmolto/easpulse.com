@@ -1,7 +1,7 @@
 "use client";
 
 import { cx } from "@/lib/utils";
-import CumulativeAttestations from "@/components/ui/optimism/Cumulative Attestations";
+import CumulativeAttestations from "@/components/ui/optimism/CumulativeAttestations";
 
 export default function Overview() {
   return (
