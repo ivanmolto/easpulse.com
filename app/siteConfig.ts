@@ -66,8 +66,8 @@ export const siteConfig = {
       trends: "/clique/trends",
     },
     attest: {
-      overview: "/attest/overview",
-      trends: "/attest/trends",
+      overview: "/fest/overview",
+      trends: "/fest/trends",
     },
     bountycaster: {
       overview: "/bountycaster/overview",
