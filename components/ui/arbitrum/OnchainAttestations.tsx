@@ -63,7 +63,7 @@ export default function OnchainAttestations({ slug, column }: DuneDataProps) {
         data={sortedDataChart}
         index="Day"
         categories={["# Attestations"]}
-        colors={["lightGray"]}
+        colors={["neutral"]}
         yAxisWidth={45}
         yAxisLabel=" "
         barCategoryGap="20%"
@@ -74,7 +74,7 @@ export default function OnchainAttestations({ slug, column }: DuneDataProps) {
         data={sortedDataChart}
         index="Day"
         categories={["# Attestations"]}
-        colors={["lightGray"]}
+        colors={["neutral"]}
         showYAxis={false}
         barCategoryGap="20%"
         className="mt-4 h-60 md:hidden"
