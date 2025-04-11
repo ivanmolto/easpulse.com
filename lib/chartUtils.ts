@@ -133,6 +133,18 @@ export const chartColors = {
     fill: "fill-gray-300 dark:fill-gray-700",
     text: "text-gray-300 dark:text-gray-700",
   },
+  zinc: {
+    bg: "bg-zinc-500 dark:bg-zinc-500",
+    stroke: "stroke-zinc-500 dark:stroke-zinc-500",
+    fill: "fill-zinc-500 dark:fill-zinc-500",
+    text: "text-zinc-500 dark:text-zinc-500",
+  },
+  neutral: {
+    bg: "bg-neutral-500 dark:bg-neutral-500",
+    stroke: "stroke-neutral-500 dark:stroke-neutral-500",
+    fill: "fill-neutral-500 dark:fill-neutral-500",
+    text: "text-neutral-500 dark:text-neutral-500",
+  },
 } as const satisfies {
   [color: string]: {
     [key in ColorUtility]: string;
