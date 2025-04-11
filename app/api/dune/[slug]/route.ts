@@ -22,7 +22,7 @@ export async function GET(request: Request) {
 
   try {
     const results = await client.custom.getResults({
-      handle: "ivanmolto",
+      handle: "eas_pulse",
       slug: slug,
     });
 
