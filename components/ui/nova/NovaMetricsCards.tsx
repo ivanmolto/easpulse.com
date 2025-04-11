@@ -12,13 +12,13 @@ export function NovaMetricsCards() {
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             On-Chain Attestations
           </dt>
-          <AttestationsCount slug="nova-eas-total-onchain-attestations-count" />
+          <AttestationsCount slug="nova-attestations-count" />
         </div>
         <div>
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             Unique On-Chain Recipients
           </dt>
-          <RecipientsCount slug="nova-total-eas-unique-onchain-recipients" />
+          <RecipientsCount slug="nova-recipients-count" />
         </div>
       </dl>
     </>

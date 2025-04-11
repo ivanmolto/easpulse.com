@@ -15,7 +15,7 @@ export default function Trends() {
               Number of attestations over time grouped by day
             </dd>
           </div>
-          <OnchainAttestations slug="attest-daily-onchain-attestations" />
+          <OnchainAttestations slug="attest-daily-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -26,7 +26,7 @@ export default function Trends() {
               Number of attestations over time grouped by week
             </dd>
           </div>
-          <OnchainAttestations slug="attest-weekly-onchain-attestations" />
+          <OnchainAttestations slug="attest-weekly-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -37,7 +37,7 @@ export default function Trends() {
               Number of attestations over time grouped by month
             </dd>
           </div>
-          <OnchainAttestations slug="attest-monthly-onchain-attestations" />
+          <OnchainAttestations slug="attest-monthly-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -48,7 +48,7 @@ export default function Trends() {
               Number of attestations over time grouped by quarter
             </dd>
           </div>
-          <OnchainAttestations slug="attest-quarterly-onchain-attestations" />
+          <OnchainAttestations slug="attest-quarterly-attestations" />
         </div>
       </dl>
     </section>

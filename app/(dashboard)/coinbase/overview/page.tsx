@@ -20,7 +20,7 @@ export default function Overview() {
               Total number of attestations accumulated over time
             </dd>
           </div>
-          <CumulativeAttestations slug="cumulative-coinbase-eas-onchain-attestations-over-time" />
+          <CumulativeAttestations slug="cumulative-verifications-attestations" />
         </div>
       </dl>
     </section>

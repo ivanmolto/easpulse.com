@@ -20,7 +20,7 @@ export default function Overview() {
               Total number of attestations accumulated over time
             </dd>
           </div>
-          <CumulativeAttestations slug="cumulative-clique-eas-onchain-attestations-over-time" />
+          <CumulativeAttestations slug="cumulative-clique-attestations" />
         </div>
       </dl>
     </section>

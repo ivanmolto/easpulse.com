@@ -14,7 +14,7 @@ export default function Trends() {
               Number of attestations over time grouped by day
             </dd>
           </div>
-          <OnchainAttestations slug="coinbase-verifications-daily-onchain-attestations" />
+          <OnchainAttestations slug="verifications-daily-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -25,7 +25,7 @@ export default function Trends() {
               Number of attestations over time grouped by week
             </dd>
           </div>
-          <OnchainAttestations slug="coinbase-verifications-weekly-onchain-attestations" />
+          <OnchainAttestations slug="verifications-weekly-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -36,7 +36,7 @@ export default function Trends() {
               Number of attestations over time grouped by month
             </dd>
           </div>
-          <OnchainAttestations slug="coinbase-verifications-monthly-onchain-attestations" />
+          <OnchainAttestations slug="verifications-monthly-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -47,7 +47,7 @@ export default function Trends() {
               Number of attestations over time grouped by quarter
             </dd>
           </div>
-          <OnchainAttestations slug="coinbase-verifications-quarterly-onchain-attestations" />
+          <OnchainAttestations slug="verifications-quarterly-attestations" />
         </div>
       </dl>
     </section>

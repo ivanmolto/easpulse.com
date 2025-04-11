@@ -12,13 +12,13 @@ export function CoinbaseMetricsCards() {
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             On-Chain Attestations
           </dt>
-          <AttestationsCount slug="coinbase-attestations-count" />
+          <AttestationsCount slug="verifications-attestations-count" />
         </div>
         <div>
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             Unique On-Chain Recipients
           </dt>
-          <RecipientsCount slug="coinbase-recipients-count" />
+          <RecipientsCount slug="verifications-recipients-count" />
         </div>
       </dl>
     </>

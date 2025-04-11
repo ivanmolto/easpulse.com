@@ -14,7 +14,7 @@ export default function Trends() {
               Number of attestations over time grouped by day
             </dd>
           </div>
-          <OnchainAttestations slug="arbitrum-eas-total-daily-onchain-attestations" />
+          <OnchainAttestations slug="arbitrum-daily-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -25,7 +25,7 @@ export default function Trends() {
               Number of attestations over time grouped by week
             </dd>
           </div>
-          <OnchainAttestations slug="arbitrum-eas-total-weekly-onchain-attestations" />
+          <OnchainAttestations slug="arbitrum-weekly-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -36,7 +36,7 @@ export default function Trends() {
               Number of attestations over time grouped by month
             </dd>
           </div>
-          <OnchainAttestations slug="arbitrum-eas-total-monthly-onchain-attestations" />
+          <OnchainAttestations slug="arbitrum-monthly-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -47,7 +47,7 @@ export default function Trends() {
               Number of attestations over time grouped by quarter
             </dd>
           </div>
-          <OnchainAttestations slug="arbitrum-eas-total-quarterly-onchain-attestations" />
+          <OnchainAttestations slug="arbitrum-quarterly-attestations" />
         </div>
       </dl>
     </section>

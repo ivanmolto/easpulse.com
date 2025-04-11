@@ -20,7 +20,7 @@ export default function Overview() {
               Total number of attestations accumulated over time
             </dd>
           </div>
-          <CumulativeAttestations slug="cumulative-arbitrum-eas-onchain-attestations" />
+          <CumulativeAttestations slug="cumulative-passport-attestations" />
         </div>
       </dl>
     </section>

@@ -20,7 +20,7 @@ export default function Overview() {
               Total number of attestations accumulated over time
             </dd>
           </div>
-          <CumulativeAttestations slug="cumulative-gitcoin-attestations-over-time" />
+          <CumulativeAttestations slug="cumulative-gitcoin-attestations" />
         </div>
       </dl>
     </section>

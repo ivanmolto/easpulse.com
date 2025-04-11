@@ -12,7 +12,7 @@ export function OptimismMetricsCards() {
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             On-Chain Attestations
           </dt>
-          <AttestationsCount slug="optimism-attestation-count" />
+          <AttestationsCount slug="optimism-attestations-count" />
         </div>
         <div>
           <dt className="text-sm text-gray-500 dark:text-gray-500">

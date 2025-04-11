@@ -13,7 +13,7 @@ export function GitcoinMetricsCards() {
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             On-Chain Attestations
           </dt>
-          <AttestationsCount slug="gitcoin-onchain-attestations" />
+          <AttestationsCount slug="gitcoin-attestations-count" />
         </div>
         <div>
           <dt className="text-sm text-gray-500 dark:text-gray-500">

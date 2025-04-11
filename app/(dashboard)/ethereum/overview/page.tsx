@@ -19,7 +19,7 @@ export default function Overview() {
               Total number of attestations accumulated over time
             </dd>
           </div>
-          <CumulativeAttestations slug="cumulative-ethereum-eas-onchain-attestations" />
+          <CumulativeAttestations slug="cumulative-ethereum-attestations" />
         </div>
       </dl>
     </section>

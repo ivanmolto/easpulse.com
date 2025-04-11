@@ -15,7 +15,7 @@ export default function Trends() {
               Number of attestations over time grouped by day
             </dd>
           </div>
-          <OnchainAttestations slug="ethereum-eas-total-daily-onchain-attestations" />
+          <OnchainAttestations slug="ethereum-daily-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -26,7 +26,7 @@ export default function Trends() {
               Number of attestations over time grouped by week
             </dd>
           </div>
-          <OnchainAttestations slug="ethereum-eas-total-weekly-onchain-attestations" />
+          <OnchainAttestations slug="ethereum-weekly-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -37,7 +37,7 @@ export default function Trends() {
               Number of attestations over time grouped by month
             </dd>
           </div>
-          <OnchainAttestations slug="ethereum-eas-total-monthly-onchain-attestations" />
+          <OnchainAttestations slug="ethereum-monthly-attestations" />
         </div>
         <div className="flex flex-col justify-between p-0">
           <div>
@@ -48,7 +48,7 @@ export default function Trends() {
               Number of attestations over time grouped by quarter
             </dd>
           </div>
-          <OnchainAttestations slug="ethereum-eas-total-quarterly-onchain-attestations" />
+          <OnchainAttestations slug="ethereum-quarterly-attestations" />
         </div>
       </dl>
     </section>
