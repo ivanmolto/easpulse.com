@@ -65,7 +65,7 @@ export default function CumulativeAttestations({
     <>
       <LineChart
         className="h-60 w-full"
-        colors={["emerald"]}
+        colors={["zinc"]}
         data={sortedDataChart}
         index="Day"
         categories={["# Attestations"]}
