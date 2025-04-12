@@ -1,3 +1,7 @@
+import Revenue from "@/components/ui/passport/Revenue";
+import AttestationsCount from "@/components/ui/passport/AttestationsCount";
+import RecipientsCount from "@/components/ui/passport/RecipientsCount";
+
 export function PassportMetricsCards() {
   return (
     <>
@@ -9,17 +13,19 @@ export function PassportMetricsCards() {
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             On-Chain Attestations
           </dt>
-          <dd className="text-lg font-semibold text-gray-900 dark:text-gray-50 mt-1.5 flex items-center gap-2">
-            {new Intl.NumberFormat("en-US").format(600389)}
-          </dd>
+          <AttestationsCount slug="gitcoin-attestations-count" />
         </div>
         <div>
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             Unique On-Chain Recipients
           </dt>
-          <dd className="text-lg font-semibold text-gray-900 dark:text-gray-50 mt-1.5 flex items-center gap-2">
-            {new Intl.NumberFormat("en-US").format(197578)}
-          </dd>
+          <RecipientsCount slug="gitcoin-recipients-count" />
+        </div>
+        <div>
+          <dt className="text-sm text-gray-500 dark:text-gray-500">
+            On-Chain Attestations Revenue
+          </dt>
+          <Revenue slug="passport-attestations-revenue" />
         </div>
       </dl>
     </>
