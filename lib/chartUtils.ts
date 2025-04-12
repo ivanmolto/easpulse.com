@@ -151,6 +151,12 @@ export const chartColors = {
     fill: "fill-purple-500 dark:fill-purple-500",
     text: "text-purple-500 dark:text-purple-500",
   },
+  sync: {
+    bg: "bg-gray-950 dark:bg-gray-50",
+    stroke: "stroke-gray-950 dark:stroke-gray-50",
+    fill: "fill-gray-950 dark:fill-gray-50",
+    text: "text-gray-950 dark:text-gray-50",
+  },
 } as const satisfies {
   [color: string]: {
     [key in ColorUtility]: string;
