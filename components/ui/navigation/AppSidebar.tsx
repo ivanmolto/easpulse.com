@@ -56,10 +56,10 @@ const navigation = [
         name: "Optimism",
         href: "/optimism/overview",
       },
-      /* {
+      {
         name: "Polygon",
         href: "/polygon/overview",
-      }, */
+      },
       {
         name: "Scroll",
         href: "/scroll/overview",
