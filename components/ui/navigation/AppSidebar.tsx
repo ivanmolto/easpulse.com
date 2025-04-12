@@ -64,10 +64,10 @@ const navigation = [
         name: "Scroll",
         href: "/scroll/overview",
       },
-      /* {
+      {
         name: "zkSync Era",
         href: "/zksync/overview",
-      }, */
+      },
     ],
   },
   {
