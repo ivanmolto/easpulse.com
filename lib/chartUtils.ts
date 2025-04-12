@@ -145,6 +145,12 @@ export const chartColors = {
     fill: "fill-neutral-500 dark:fill-neutral-500",
     text: "text-neutral-500 dark:text-neutral-500",
   },
+  purple: {
+    bg: "bg-purple-500 dark:bg-purple-500",
+    stroke: "stroke-purple-500 dark:stroke-purple-500",
+    fill: "fill-purple-500 dark:fill-purple-500",
+    text: "text-purple-500 dark:text-purple-500",
+  },
 } as const satisfies {
   [color: string]: {
     [key in ColorUtility]: string;
