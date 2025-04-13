@@ -13,13 +13,13 @@ export function PassportMetricsCards() {
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             On-Chain Attestations
           </dt>
-          <AttestationsCount slug="gitcoin-attestations-count" />
+          <AttestationsCount slug="passport-attestations-count" />
         </div>
         <div>
           <dt className="text-sm text-gray-500 dark:text-gray-500">
             Unique On-Chain Recipients
           </dt>
-          <RecipientsCount slug="gitcoin-recipients-count" />
+          <RecipientsCount slug="passport-recipients-count" />
         </div>
         <div>
           <dt className="text-sm text-gray-500 dark:text-gray-500">

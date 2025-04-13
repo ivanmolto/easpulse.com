@@ -35,6 +35,12 @@ export default function Overview() {
           </dt>
           <Revenue slug="passport-zksync-attestations-revenue" />
         </div>
+        <div>
+          <dt className="text-sm text-gray-500 dark:text-gray-500">
+            Base - Attestations Revenue
+          </dt>
+          <Revenue slug="passport-base-attestations-revenue" />
+        </div>
       </dl>
     </section>
   );
