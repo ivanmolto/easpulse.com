@@ -113,6 +113,11 @@ const navigation = [
         active: false,
       },
       {
+        name: "Coordinape",
+        href: "/coordinape/overview",
+        active: false,
+      },
+      {
         name: "Gitcoin",
         href: "/gitcoin/overview",
         active: false,

@@ -43,6 +43,8 @@ export function Breadcrumbs() {
     nav = "Attest Fest";
   } else if (currentPage === "bountycaster") {
     nav = "Bountycaster";
+  } else if (currentPage === "coordinape") {
+    nav = "Coordinape";
   }
 
   return (
