@@ -45,6 +45,8 @@ export function Breadcrumbs() {
     nav = "Bountycaster";
   } else if (currentPage === "coordinape") {
     nav = "Coordinape";
+  } else if (currentPage === "all") {
+    nav = "All chains";
   }
 
   return (

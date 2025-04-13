@@ -29,6 +29,10 @@ const navigation = [
     icon: Link,
     children: [
       {
+        name: "All chains",
+        href: "/all/overview",
+      },
+      {
         name: "Arbitrum One",
         href: "/arbitrum/overview",
       },
