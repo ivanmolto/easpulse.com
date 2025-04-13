@@ -77,6 +77,10 @@ export const siteConfig = {
       overview: "/coordinape/overview",
       trends: "/coordinape/trends",
     },
+    all: {
+      overview: "/all/overview",
+      trends: "/all/trends",
+    },
   },
 };
 
