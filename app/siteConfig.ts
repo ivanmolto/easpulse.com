@@ -73,6 +73,10 @@ export const siteConfig = {
       overview: "/bountycaster/overview",
       trends: "/bountycaster/trends",
     },
+    coordinape: {
+      overview: "/coordinape/overview",
+      trends: "/coordinape/trends",
+    },
   },
 };
 
