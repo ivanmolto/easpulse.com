@@ -33,7 +33,7 @@ const navigation = [
         href: "/all/overview",
       },
       {
-        name: "Arbitrum One",
+        name: "Arbitrum",
         href: "/arbitrum/overview",
       },
       {
@@ -53,7 +53,7 @@ const navigation = [
         href: "/linea/overview",
       },
       {
-        name: "Arbitrum Nova",
+        name: "Nova",
         href: "/nova/overview",
       },
       {
