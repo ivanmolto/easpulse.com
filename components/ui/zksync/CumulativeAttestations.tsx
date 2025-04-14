@@ -68,15 +68,7 @@ export default function CumulativeAttestations({
         data={sortedDataChart}
         index="Day"
         categories={["# Attestations"]}
-        valueFormatter={(value) => {
-          const formattedValue =
-            value >= 1000000
-              ? `${(value / 1000000).toFixed(2)}M`
-              : value >= 1000
-              ? `${(value / 1000).toFixed(1)}K`
-              : formatters.unit(value);
-          return formattedValue;
-        }}
+        valueFormatter={(value) => formatters.unit(value)}
         onValueChange={(v) => console.log(v)}
       />
     </>
