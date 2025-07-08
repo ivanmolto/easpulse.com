@@ -6,28 +6,6 @@ export function Hero() {
   return (
     <section aria-label="hero">
       <FadeContainer className="relative flex flex-col items-center justify-center">
-        <FadeDiv className="mx-auto">
-          <a
-            aria-label="Latest update news"
-            href="https://explorer.gitcoin.co/#/round/42161/863/74"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mx-auto w-full"
-          >
-            <div className="group inline-flex max-w-full items-center gap-3 rounded-full bg-white/5 dark:bg-white  px-2.5 py-0.5 pr-3 pl-0.5 font-medium text-gray-900 ring-1 shadow-lg shadow-red-400/20 ring-black/10 filter backdrop-blur-[1px] transition-colors hover:bg-red-400 dark:hover:bg-red-400 focus:outline-hidden sm:text-sm">
-              <span className="shrink-0 truncate rounded-full border bg-gray-50  dark:bg-gray-50 px-2.5 py-1 text-sm text-gray-600 sm:text-xs">
-                News
-              </span>
-              <span className="group flex items-center gap-1 truncate">
-                <span className="w-full truncate group-hover:text-white">
-                  We are in Gitcoin Grants 23 — spread the love and back us!
-                </span>
-
-                <RiArrowRightUpLine className="group-hover:text-white size-4 shrink-0 text-gray-700" />
-              </span>
-            </div>
-          </a>
-        </FadeDiv>
         <h1 className="mt-8 text-center text-5xl font-semibold tracking-tighter text-gray-900 dark:text-gray-100 sm:text-8xl sm:leading-[5.5rem]">
           <FadeSpan>Surface</FadeSpan> <FadeSpan>Alpha</FadeSpan>
           <br />
