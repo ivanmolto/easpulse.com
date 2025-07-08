@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { FadeContainer, FadeDiv, FadeSpan } from "./Fade";
-import { RiArrowRightUpLine } from "@remixicon/react";
 
 export function Hero() {
   return (
