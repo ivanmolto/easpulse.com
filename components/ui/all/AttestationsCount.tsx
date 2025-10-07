@@ -26,7 +26,6 @@ interface DuneDataProps {
 const fetchDuneData = async (slug: string): Promise<any> => {
   const response = await fetch(`/api/dune/${encodeURIComponent(slug)}`);
   const data: DuneResponse = await response.json();
-  console.log(data);
   return data;
 };
 
@@ -48,7 +47,6 @@ export default function AttestationsCount({ slug }: DuneDataProps) {
   const executionTime = data.execution_ended_at
     ? relativeDate(data.execution_ended_at)
     : null;
-  console.log(executionTime);
 
   return (
     <>
