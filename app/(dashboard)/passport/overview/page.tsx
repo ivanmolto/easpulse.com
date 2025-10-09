@@ -1,6 +1,6 @@
 "use client";
 
-import CumulativeAttestations from "@/components/ui/passport/Cumulative Attestations";
+import CumulativeAttestations from "@/components/ui/passport/CumulativeAttestations";
 import { cx } from "@/lib/utils";
 
 export default function Overview() {
