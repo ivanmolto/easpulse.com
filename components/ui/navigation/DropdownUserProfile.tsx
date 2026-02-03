@@ -85,24 +85,6 @@ export function DropdownUserProfile({
           <DropdownMenuGroup>
             <DropdownMenuItem>
               <a
-                href="https://easpulse.info"
-                target="_blank"
-                rel="noopener noreferrer"
-                className=" text-gray-700 dark:text-gray-300 transition-colors duration-200 "
-              >
-                <span className="group inline-flex hover:text-red-400">
-                  <span className="group-hover:text-red-400">
-                    Documentation
-                  </span>
-                  <ArrowUpRight
-                    className="mb-1 ml-1 size-3 shrink-0 text-gray-500 group-hover:text-red-400"
-                    aria-hidden="true"
-                  />
-                </span>
-              </a>
-            </DropdownMenuItem>
-            <DropdownMenuItem>
-              <a
                 href="https://github.com/easpulse"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -110,22 +92,6 @@ export function DropdownUserProfile({
               >
                 <span className="group inline-flex hover:text-red-400">
                   <span className="group-hover:text-red-400">GitHub</span>
-                  <ArrowUpRight
-                    className="mb-1 ml-1 size-3 shrink-0 text-gray-500 group-hover:text-red-400"
-                    aria-hidden="true"
-                  />
-                </span>
-              </a>
-            </DropdownMenuItem>
-            <DropdownMenuItem>
-              <a
-                href="https://x.com/eas_pulse"
-                target="_blank"
-                rel="noopener noreferrer"
-                className=" text-gray-700 dark:text-gray-300 transition-colors duration-200 "
-              >
-                <span className="group inline-flex hover:text-red-400">
-                  <span className="group-hover:text-red-400">X</span>
                   <ArrowUpRight
                     className="mb-1 ml-1 size-3 shrink-0 text-gray-500 group-hover:text-red-400"
                     aria-hidden="true"
