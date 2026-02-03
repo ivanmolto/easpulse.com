@@ -38,14 +38,7 @@ const Layout = ({
         <div>
           <div className="hidden md:flex items-center">
             {/* Social Icons */}
-            <a
-              href="https://x.com/eas_pulse"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:text-red-400"
-            >
-              <RiTwitterXFill className="size-5" />
-            </a>
+
             <a
               href="https://github.com/easpulse"
               target="_blank"
