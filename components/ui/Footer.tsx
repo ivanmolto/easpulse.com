@@ -9,14 +9,7 @@ const Footer = () => {
           <div>
             <div className="mt-4 flex items-center justify-center">
               {/* Social Icons */}
-              <a
-                href="https://x.com/ivanmolto"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 text-gray-700 dark:text-gray-300 transition-colors duration-200 hover:text-red-400"
-              >
-                <RiTwitterXFill className="size-6" />
-              </a>
+
               <Link
                 href="https://github.com/ivanmolto"
                 target="_blank"
