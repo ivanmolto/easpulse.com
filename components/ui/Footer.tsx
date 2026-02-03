@@ -1,4 +1,4 @@
-import { RiGithubFill, RiTwitterXFill, RiEarthFill } from "@remixicon/react";
+import { RiGithubFill, RiEarthFill } from "@remixicon/react";
 import Link from "next/link";
 
 const Footer = () => {

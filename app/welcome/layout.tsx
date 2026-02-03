@@ -6,7 +6,6 @@ import useScroll from "@/lib/useScroll";
 import { cx } from "@/lib/utils";
 import React from "react";
 import Link from "next/link";
-import { RiGithubFill, RiTwitterXFill, RiEarthFill } from "@remixicon/react";
 
 const Layout = ({
   children,
